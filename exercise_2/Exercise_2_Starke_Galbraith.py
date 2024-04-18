@@ -12,13 +12,14 @@
 # So donuts(5) returns 'Number of donuts: 5'
 # and donuts(23) returns 'Number of donuts: many'
 def donuts(count):
-    if count >= 10:
-        return 'Number of donuts: many'
-    else:
-        return 'Number of donuts: ' + str(count)
-
-result = donuts(5)
-print(result)
+    try:
+        count = int(count)
+        if count >= 10:
+            return 'Number of donuts: many'
+        else:
+            return 'Number of donuts: ' + str(count)
+    except ValueError:
+        return 'Invalid input: Please enter a valid number'
 
 # verbing
 # Given a string, if its length is at least 3,
@@ -63,7 +64,7 @@ def main():
     print(donuts(4))
     print(donuts(9))
     print(donuts(10))
-    #print(donuts('twentyone'))
+    print(donuts('twentyone'))
     print('verbing')
     print(verbing('hail'))
     print(verbing('swiming'))
