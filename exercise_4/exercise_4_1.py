@@ -1,5 +1,5 @@
 # Python in QGIS and ArcGIS
-# Exercise 4
+# Exercise 4, Task 1
 # Author: Jonas Starke, Kieran Galbraith
 # Date: 2024-04-05
 
