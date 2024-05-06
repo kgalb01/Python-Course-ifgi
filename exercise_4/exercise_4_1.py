@@ -1,7 +1,7 @@
 # Python in QGIS and ArcGIS
 # Exercise 4, Task 1
 # Author: Jonas Starke, Kieran Galbraith
-# Date: 2024-04-05
+# Date: 2024-05-04
 
 from qgis.PyQt.QtCore import QUrl
 from qgis.PyQt.QtWebKitWidgets import QWebView
