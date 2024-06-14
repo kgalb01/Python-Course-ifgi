@@ -1,7 +1,7 @@
 # Python in QGIS and ArcGIS
 # Exercise 7, Task 1
 # Author: Jonas Starke, Kieran Galbraith
-# Date: 2024-06-05
+# Date: 2024-06-14
 
 import csv
 import os

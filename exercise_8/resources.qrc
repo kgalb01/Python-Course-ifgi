@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/muenster_district" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
